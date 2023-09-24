@@ -1,0 +1,70 @@
+/* Add background color to the header and footer */
+header, footer {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+}
+
+/* Style the h1 headings with a different color */
+h1 {
+    color: #333;
+}
+
+/* Style the main content area with a background color */
+main {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* Style the form elements with colors and padding */
+form {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    color: #333;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Style the result page elements */
+#definition {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+/* Style the "Speak" button */
+button#speak-button {
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button#speak-button:hover {
+    background-color: #000;
+}

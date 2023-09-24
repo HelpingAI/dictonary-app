@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Definition Lookup</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Word Definition Lookup</h1>
+        <img src="{{ url_for('static', filename='dictionary.png') }}" alt="Dictionary Image">
+    </header>
+    <main>
+        <form action="/lookup" method="POST">
+            <label for="word">Enter a word:</label>
+            <input type="text" id="word" name="word" required>
+            <button type="submit">Search</button>
+        </form>
+    </main>
+    <footer>
+        <p>Explore the world of words with us!</p>
+    </footer>
+</body>
+</html>

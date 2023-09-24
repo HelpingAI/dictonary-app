@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Definition Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Definition of '{{ word }}'</h1>
+    </header>
+    <main>
+        <p id="definition">{{ definition | safe }}</p>
+        <button onclick="speakWord()">Speak</button>
+    </main>
+    <footer>
+        <p>Back to <a href="/">Homepage</a></p>
+    </footer>
+</body>
+<script>
+    function speakWord() {
+        const definition = document.getElementById('definition').innerHTML;
+        // Implement JavaScript code here to speak the word (e.g., using a text-to-speech library)
+        // You may need to replace this comment with the actual code.
+    }
+</script>
+</html>
